@@ -9,8 +9,6 @@ scalaVersion := "2.12.2"
 
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.0" % Test
-libraryDependencies += "org.webjars" % "bootstrap" % "3.1.1-2"
-libraryDependencies += "org.webjars" % "react" % "0.13.3"
 libraryDependencies += ws
 libraryDependencies += "com.lihaoyi" %% "pprint" % "0.5.0"
 libraryDependencies += "org.scala-debugger" %% "scala-debugger-api" % "1.1.0-M3"

@@ -21,7 +21,7 @@ package controllers {
       val singleProvFlightsURI = "https://private-6516c-singleproviderapi.apiary-mock.com/flights"
 
       dedupedFlights(ws.url(aggFlightsURI), ws.url(singleProvFlightsURI)) map {
-        uniqFlights => Ok(uniqFlights)
+        uniqFlights => Ok(uniqFlights).as("text/html");
       }
     }
 
